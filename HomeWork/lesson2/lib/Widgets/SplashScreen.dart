@@ -7,7 +7,8 @@ class SplashScreen extends StatefulWidget {
   _SplashScreenState createState() => _SplashScreenState();
 }
 
-class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderStateMixin {
+class _SplashScreenState extends State<SplashScreen>
+    with SingleTickerProviderStateMixin {
   late AnimationController _animationController;
 
   @override
@@ -18,14 +19,12 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
       duration: Duration(seconds: 2),
     )..repeat();
 
-    // Wait for 3 seconds, then navigate to the PostsList widget
     Future.delayed(Duration(seconds: 3), () {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(builder: (context) => PostsList()),
       );
     });
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -51,5 +50,3 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
     super.dispose();
   }
 }
-
-

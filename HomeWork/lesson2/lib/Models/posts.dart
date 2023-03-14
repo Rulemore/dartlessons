@@ -17,5 +17,6 @@ class Posts {
   });
 
   factory Posts.fromJson(Map<String, dynamic> json) => _$PostsFromJson(json);
+
   Map<String, dynamic> toJson() => _$PostsToJson(this);
 }

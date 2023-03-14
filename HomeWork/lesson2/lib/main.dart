@@ -48,38 +48,36 @@ class _MyAppState extends State<MyApp> {
     }
   }
 
-
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: _isLoading
           ? SplashScreen()
           : Scaffold(
-        appBar: AppBar(
-          title: Text('Posts'),
-          actions: [
-            IconButton(
-              icon: Icon(Icons.delete),
-              onPressed: () {
-                setState(() {
-                  _posts = null;
-                });
-              },
+              appBar: AppBar(
+                title: Text('Posts'),
+                actions: [
+                  IconButton(
+                    icon: Icon(Icons.delete),
+                    onPressed: () {
+                      setState(() {
+                        _posts = null;
+                      });
+                    },
+                  ),
+                ],
+              ),
+              body: _posts == null
+                  ? RefreshIndicator(
+                      onRefresh: _refreshPosts,
+                      child: ListView(
+                        children: [
+                          Center(child: Text('Здесь ничего нет')),
+                        ],
+                      ),
+                    )
+                  : PostsList(posts: _posts),
             ),
-          ],
-        ),
-        body: _posts == null
-            ? RefreshIndicator(
-          onRefresh: _refreshPosts,
-          child: ListView(
-            children: [
-              Center(child: Text('Здесь ничего нет')),
-            ],
-          ),
-        )
-            : PostsList(posts: _posts),
-      ),
     );
   }
 }

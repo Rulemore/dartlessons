@@ -14,7 +14,6 @@ class PostsList extends StatefulWidget {
 class _PostsListState extends State<PostsList> {
   List<dynamic>? _posts;
 
-
   @override
   void initState() {
     super.initState();
@@ -39,7 +38,6 @@ class _PostsListState extends State<PostsList> {
     }
   }
 
-
   void clearPosts() {
     setState(() {
       _posts = null;
@@ -49,15 +47,16 @@ class _PostsListState extends State<PostsList> {
   @override
   Widget build(BuildContext context) {
     if (_posts == null) {
-      return Center(child: CircularProgressIndicator(),);
+      return Center(
+        child: CircularProgressIndicator(),
+      );
     } else {
       return RefreshIndicator(
         onRefresh: _refreshPosts,
         child: ListView.builder(
           itemCount: _posts!.length,
           itemBuilder: (BuildContext context, int index) {
-            Posts postObject = Posts.fromJson(
-                _posts![index]);
+            Posts postObject = Posts.fromJson(_posts![index]);
             return ListTile(
               title: Text(postObject.title),
               subtitle: Text(postObject.body),
