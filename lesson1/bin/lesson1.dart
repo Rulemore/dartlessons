@@ -1,6 +1,7 @@
+
 import 'package:lesson1/lesson1.dart' as lesson1;
 import 'package:lesson1/lesson1.dart';
-import 'package:lesson1/posts.dart';
+import 'package:lesson1/Models/posts.dart';
 
 void main(List<String> arguments) async {
   List<dynamic>? posts = await getPosts();
