@@ -1,34 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'list_widget_model.dart';
+import 'home_page_model.dart';
 
-class HomePage extends StatefulWidget {
-  HomePage({super.key});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
-  @override
-  State<HomePage> createState() => _HomePageState();
-}
-
-class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    final model = context.watch<ListWidgetModel>();
+    //Начинаем слушать HomePageModel
+    final model = HomePageProvider.watch(context)!.notifier as HomePageModel;
     return Scaffold(
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          model.getPosts();
-        },
+        onPressed: model.getPosts,
         child: const Icon(Icons.refresh),
       ),
       appBar: AppBar(
         title: const Text('List Parser'),
-        actions: [
-          IconButton(
-              onPressed: () {
-                model.clearPosts();
-              },
-              icon: Icon(Icons.clear))
-        ],
+        actions: [IconButton(onPressed: model.clearPosts, icon: const Icon(Icons.clear))],
       ),
       body: ListView.builder(
         itemCount: model.posts.length,
