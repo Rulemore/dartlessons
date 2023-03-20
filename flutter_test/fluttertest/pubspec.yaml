@@ -1,0 +1,24 @@
+name: fluttertest
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  build_runner: ^2.3.3
+  cupertino_icons: ^1.0.2
+  dio: ^5.0.2
+  flutter:
+    sdk: flutter
+  json_annotation: ^4.8.0
+  json_serializable: ^6.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
