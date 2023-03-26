@@ -1,4 +1,4 @@
-name: lesson1
+name: lesson2
 description: A new Flutter project.
 
 publish_to: 'none'
@@ -14,6 +14,9 @@ dependencies:
   dio: ^5.0.1
   json_annotation: ^4.8.0
   json_serializable: ^6.6.1
+  flutter_bloc: ^8.1.2
+  bloc: ^8.0.0
+  equatable: ^2.0.3
   flutter:
     sdk: flutter
 

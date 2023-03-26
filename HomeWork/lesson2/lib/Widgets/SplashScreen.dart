@@ -21,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen>
 
     Future.delayed(Duration(seconds: 3), () {
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => PostsList()),
+        MaterialPageRoute(builder: (context) => PostsList(posts: [],)),
       );
     });
   }
