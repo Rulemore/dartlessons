@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0ab097c-8ea1-427b-a984-2c80bb7fd2cf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/n3/dart_parsing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n3/dart_parsing/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n3/dart_parsing/.idea/dart_parsing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n3/dart_parsing/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n3/dart_parsing/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n3/dart_parsing/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n3/dart_parsing/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n3/dart_parsing/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n3/dart_parsing/analysis_options.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n3/dart_parsing/bin/dart_parsing.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n3/dart_parsing/lib/de_class.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n3/dart_parsing/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n3/dart_parsing/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/analysis_options.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/src/main/kotlin/com/example/flutter_parse_n_list/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/lib/de_class.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/flutter/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/flutter/generated_plugin_registrant.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/flutter/generated_plugins.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/runner/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/runner/Runner.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/runner/flutter_window.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/runner/flutter_window.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/runner/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/runner/resource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/runner/resources/app_icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/runner/runner.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/runner/utils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/runner/utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/runner/win32_window.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n4/flutter_parse_n_list/windows/runner/win32_window.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2NTGP0MLZRiJ7QItGAcAWVvt89H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/coding projects/dartlessons/Homework/hw5_water_drinking_app",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0ab097c-8ea1-427b-a984-2c80bb7fd2cf" name="Changes" comment="" />
+      <created>1679680632963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679680632963</updated>
+    </task>
+    <servers />
+  </component>
+</project>
