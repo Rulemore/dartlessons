@@ -8,12 +8,14 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
       theme: ThemeData(
         bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+          type: BottomNavigationBarType.fixed,
           backgroundColor: AppColors.mainLightPink,
           selectedItemColor: Colors.white,
           unselectedItemColor: Color.fromARGB(255, 118, 98, 98),
