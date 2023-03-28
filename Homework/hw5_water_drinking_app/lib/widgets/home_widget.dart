@@ -1,5 +1,5 @@
+// ignore_for_file: prefer_final_fields, prefer_const_constructors
 import 'package:flutter/material.dart';
-import 'package:hw5_water_drinking_app/main.dart';
 
 class HomeWidget extends StatefulWidget {
   const HomeWidget({Key? key}) : super(key: key);
@@ -88,13 +88,35 @@ class WaterCounter {
 
 class _HomeWidgetState extends State<HomeWidget> {
   int _selectedTab = 0;
-  static const List<Widget> _widgetOptions = <Widget>[
-    Center(child: FloatingActionButton(onPressed: () {
-      showModalBottomSheet(context: context, builder: (BuildContext(context)) {
-        return SizedBox(
-          height: 400, child: Column(
-            children: <Widget>[OutlinedButton(onPressed: () {}, child: const Text('100ml'),),],),),
-    };}, child: Icon(Icons.add),),),
+
+  BuildContext getContext(BuildContext context) {
+    return context;
+  }
+
+  static List<Widget> _widgetOptions = <Widget>[
+    Center(
+      child: FloatingActionButton(
+          child: Text('Open Bottom Sheet'),
+          onPressed: () {
+            showModalBottomSheet(
+              isDismissible: true,
+              context: context,
+              builder: (BuildContext context) {
+                return SizedBox(
+                  height: 500,
+                  child: Center(
+                    child: OutlinedButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                      child: Text('Close)'),
+                    ),
+                  ),
+                );
+              },
+            );
+          }),
+    ),
     Text(
       'Aqua balance ',
     ),

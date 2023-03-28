@@ -5,7 +5,6 @@ import 'widgets/profile_widget.dart';
 
 void main() {
   runApp(MyApp());
-  WaterCounter.addwater(200);
 }
 
 class MyApp extends StatelessWidget {
