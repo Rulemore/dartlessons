@@ -16,6 +16,8 @@ dependencies:
   json_serializable: ^6.6.1
   flutter_bloc: ^8.1.2
   bloc: ^8.0.0
+  http: ^0.13.5
+  bloc_concurrency: ^0.2.0
   equatable: ^2.0.3
   flutter:
     sdk: flutter

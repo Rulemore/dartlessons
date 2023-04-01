@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:lesson2/Widgets/PostsPage.dart';
 
-import 'PostsList.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -21,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen>
 
     Future.delayed(Duration(seconds: 3), () {
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => PostsList(posts: [],)),
+        MaterialPageRoute(builder: (context) => const PostsPage()),
       );
     });
   }
