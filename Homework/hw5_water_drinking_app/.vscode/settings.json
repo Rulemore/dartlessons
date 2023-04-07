@@ -1,5 +1,6 @@
 {
     "workbench.colorCustomizations": {},
     "workbench.statusBar.visible": true,
-    "window.autoDetectColorScheme": false
+    "window.autoDetectColorScheme": false,
+    "cmake.configureOnOpen": false
 }
