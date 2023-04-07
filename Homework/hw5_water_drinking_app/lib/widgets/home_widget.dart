@@ -57,7 +57,7 @@ class _HomeWidgetState extends State<HomeWidget> {
   }
 
   void openProfile() {
-    print(2);
+    Navigator.of(context).pushNamed('/profile');
   }
 
   late TextEditingController controller;
@@ -288,7 +288,6 @@ class _HomeWidgetState extends State<HomeWidget> {
               ),
             ),
             Expanded(
-              flex: 10,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -539,8 +538,65 @@ class _HomeWidgetState extends State<HomeWidget> {
         ),
       ),
       SafeArea(
-        child: Text(
-          'Supply',
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            Padding(
+              padding: EdgeInsets.all(16),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'Careby',
+                    style: GoogleFonts.montserrat(
+                      fontSize: 25,
+                    ),
+                  ),
+                  OutlinedButton(
+                    onPressed: openProfile,
+                    style: OutlinedButton.styleFrom(
+                      side: BorderSide(
+                        width: 1,
+                        color: AppColors.mainLightPink,
+                      ),
+                      backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
+                      fixedSize: const Size(67, 47),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.all(
+                          Radius.circular(21),
+                        ),
+                      ),
+                      elevation: 0,
+                    ),
+                    child: Icon(
+                      Icons.person,
+                      color: AppColors.mainLightPinkunselected,
+                      size: 34,
+                    ),
+                  )
+                ],
+              ),
+            ),
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'work in progress',
+                    style: GoogleFonts.montserrat(
+                      fontStyle: FontStyle.italic,
+                      fontSize: 40,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 80,
+                  ),
+                ],
+              ),
+            ),
+          ],
         ),
       ),
     ];
