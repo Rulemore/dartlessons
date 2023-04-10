@@ -12,6 +12,8 @@
       <excludeFolder url="file://$MODULE_DIR$/дз/parser/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/дз/parser/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/дз/parser/build" />
+      <excludeFolder url="file://$MODULE_DIR$/дз/list_parser/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/дз/list_parser/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
